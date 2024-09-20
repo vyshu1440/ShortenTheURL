@@ -1,6 +1,6 @@
 const express = require('express');
 const app = express();
-const PORT = 3000;
+const PORT = process.env.port || 3000;
 
 app.get('/:hash', (req, res) => {
     const urlData = loadURLData();
