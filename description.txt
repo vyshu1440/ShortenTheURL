@@ -1,0 +1,32 @@
+How It Works
+---------------------
+
+* Shorten a URL: A user sends a POST request with a long URL, and the API returns a shortened URL.
+* Redirect to Original URL: When someone visits the shortened URL, they are redirected to the original URL, but only if the maximum click limit hasn't been reached.
+* Click Limit: Each shortened URL has a maximum number of clicks (set to 5). Once the URL has been clicked 5 times, it expires and can't be used anymore.
+
+
+
+Endpoints: 
+---------------------
+
+POST /shorten: Accepts the original URL in the request body and returns a shortened URL.
+GET /:hash: Redirects to the original URL based on the unique hash if the URL has not expired (i.e., if it hasn't reached its maximum click limit).
+
+
+Key Functions
+---------------------
+
+* shortenURL(originalURL):
+
+Generates a unique hash for the original URL. Stores the URL along with the current click count (starts at 0) and the maximum allowed clicks (set to 5).
+Saves this data in the urlData.json file. Returns the shortened URL.
+
+* generateHashedURL(originalURL):
+
+Uses SHA-256 hashing to generate a unique identifier for the original URL. 
+
+* loadURLData() and saveURLData(data):
+
+Load and save the URL data to and from a JSON file (urlData.json), which acts as a small database to keep track of URLs and their click counts.
+
