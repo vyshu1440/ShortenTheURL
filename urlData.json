@@ -1,0 +1,32 @@
+{
+  "f0e6a6a97042a4f1f1c87f5f7d44315b2d852c2df5c7991cc66241bf7072d1c4": {
+    "originalURL": "http://example.com",
+    "clickCount": 0,
+    "maxClicks": 5
+  },
+  "8f0872f6702b6d81d72d95dbf666e6f4302dc271263dd0b1bbcb667e277e9c71": {
+    "originalURL": "https://www.geeksforgeeks.org/system-design-url-shortening-service/",
+    "clickCount": 2,
+    "maxClicks": 5
+  },
+  "789b29cb01f7dea9ae1cd4815649ed828e274238ff424b02535d6b0eb82899ab": {
+    "originalURL": "https://www.youtube.com/results?search_query=URL+hashing+and+click-tracking+system",
+    "clickCount": 1,
+    "maxClicks": 5
+  },
+  "bfc3ea98afc8b6c7119e1cb16b8078306e16ef5702638fac7f7f887e0a4f37fd": {
+    "originalURL": "https://www.geeksforgeeks.org/all-unique-combinations-whose-sum-equals-to-k/",
+    "clickCount": 2,
+    "maxClicks": 5
+  },
+  "13954f8fa522473bf7c73142b91c716d84f3b0c64b7d9e679ade22f2ccef2783": {
+    "originalURL": "https://www.youtube.com/results?search_query=kodnest",
+    "clickCount": 1,
+    "maxClicks": 5
+  },
+  "73a64e1322c7830cf8ac26927712693c890e7f743fba229359f3e1d46bcc50e8": {
+    "originalURL": "https://takeuforward.org/strivers-a2z-dsa-course/strivers-a2z-dsa-course-sheet-2/",
+    "clickCount": 1,
+    "maxClicks": 5
+  }
+}
